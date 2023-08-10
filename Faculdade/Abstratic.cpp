@@ -1,13 +1,5 @@
-#include <iostream>
-#include "Abstratic.h" //Driver
-using namespace std;
+#include "Abstratic.h"
 
-int main()
-{
-    ThinkingCap Estudante, Festa; //Instaciando 2 objetos(Atributos privados)
-    Estudante.Slots("ola", "Tchau");
-    Estudante.PressLeft();
-    Estudante.PressRight();
-
-    return 0;
+void ThinkingCap::PressLeft(){
+    cout<<Leftstring<<endl;
 }
