@@ -1,13 +1,9 @@
 #include <iostream>
-#include "Abstratic.h" //Driver
+#include "esfera.h" //Driver
 using namespace std;
 
 int main()
 {
-    ThinkingCap Estudante, Festa; //Instaciando 2 objetos(Atributos privados)
-    Estudante.Slots("ola", "Tchau");
-    Estudante.PressLeft();
-    //Estudante.PressRight();
-
-    return 0;
+    Esfera R1, R2;
+    
 }
