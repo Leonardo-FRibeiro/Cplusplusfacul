@@ -10,3 +10,5 @@ class Carta {
         int valor; // "1, 2, 11"
     private:
 };
+
+
